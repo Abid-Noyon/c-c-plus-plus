@@ -1,7 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    printf("Hello World");
-    printf("New to programming");
+int main()
+{
+    char yourName[30];
+    scanf("%d", yourName);
+    printf("\nWelcome: %c", yourName);
     return 0;
 }
